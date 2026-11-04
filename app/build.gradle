@@ -1,0 +1,7 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'com.flashlight.pro'
+    compileSdk 33
+    defaultConfig { applicationId "com.flashlight.pro"; minSdk 24; targetSdk 33; versionCode 1; versionName "1.0" }
+    buildTypes { debug { debuggable true } }
+}
